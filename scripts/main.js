@@ -17,13 +17,17 @@
 // console.log(nome);
 
 
-let nome = window.prompt('Qual o teu nome?: ')
-let sobrenome = window.prompt ('Qual o teu sobrenome?: ')
+// let nome = window.prompt('Qual o teu nome?: ')
+// let sobrenome = window.prompt ('Qual o teu sobrenome?: ')
 
-window.alert('Olá sr. '+ nome + ' '+ sobrenome)
+// window.alert('Olá sr. '+ nome + ' '+ sobrenome)
 
-let n1 = Number(window.prompt('Primeiro number: '))
-let n2 = Number(window.prompt('Segundo numero: '))
-let n3 = n1 + n2
+// let n1 = Number(window.prompt('Primeiro number: '))
+// let n2 = Number(window.prompt('Segundo numero: '))
+// let n3 = n1 + n2
 
-window.alert('O resultado é '+ n3)
+// window.alert('O resultado é '+ n3)
+
+let nome = "João";
+let mensagem = `Olá, ${nome}!`;
+console.log(mensagem); // Saída: Olá, João!
