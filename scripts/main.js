@@ -26,8 +26,8 @@
 // let n2 = Number(window.prompt('Segundo numero: '))
 // let n3 = n1 + n2
 
-// window.alert('O resultado é '+ n3)
+// window.alert(`o resultado da soma do numero ${n1} mais o numero ${n2} é ${n3}`)
 
-let nome = "João";
-let mensagem = `Olá, ${nome}!`;
-console.log(mensagem); // Saída: Olá, João!
+// var nome = window.prompt('Nome?: ').toUpperCase()
+
+// document.write(`Seu nome é` )
