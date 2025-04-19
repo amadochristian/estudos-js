@@ -31,3 +31,12 @@
 // var nome = window.prompt('Nome?: ').toUpperCase()
 
 // document.write(`Seu nome é` )
+
+let n1 = Number(window.prompt('Digite um número: '))
+
+if (n1 => 0){
+    document.writeln(`O numero ${n1} é positivo`);
+    
+} else {
+    document.writeln(`O numero ${n1} é negativo`);
+}

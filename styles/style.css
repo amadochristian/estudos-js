@@ -8,4 +8,17 @@
 
   body{
     background-color: bisque;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+  }
+
+  body > div{
+    background-color: rgb(211, 130, 9);
+    padding: 25px;
+    border-radius: 10px;
+    font-weight: 600;
   }

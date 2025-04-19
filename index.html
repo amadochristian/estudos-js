@@ -12,17 +12,30 @@
     }
   </style>
   <body>
+    <div>
     <script>
-      var nome = window.prompt('Qual é seu nome?: ')
-      document.write(`Olá ${nome}. Seu nome tem ${nome.length} letras.<br>`)
+      //ver se o numero é positivo
+      // let n1 = Number(window.prompt('Digite um número: '))
 
-      document.write(`Seu nome maiúsculas é ${nome.toLocaleUpperCase()}<br>`)
+      // if (n1 >= 0){
+      //     document.writeln(`O número ${n1} é Positivo`);
+          
+      // } else {
+      //     document.writeln(`O número ${n1} é Negativo`);
+      // }
 
-      document.write(`Seu nome em minusculas é ${nome.toLowerCase()}<br>`)
+      let n1 = Number(window.prompt('Digite um número: '))
+
+      if (n1 % 2 === 0){
+        document.writeln(`O numero ${n1} é par`);
+      }
+      else {
+        document.writeln(`O numero ${n1} é impar`);
+      }
 
     </script>
 
-
+</div>
     <!-- <script src="scripts/main.js"></script> -->
   </body>
 </html>
